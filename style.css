@@ -5,19 +5,45 @@
 
 .Header {
     color: white;
-    background-color: rgb(50, 50, 131);
+    background-color: #1F2837;
 }
 .headertop{
     display: flex;
     justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 ul {
     display: flex;
     list-style-type: none;
+    gap: 20px;
 }
 
 a {
     text-decoration: none;
     color: white;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.titlesub {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hbright {
+    max-height: 300px;
+    display: flex;
+}
+
+.headerbody {
+    display: flex;
+    padding: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
